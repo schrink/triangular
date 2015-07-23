@@ -29,6 +29,8 @@ Initilaize triangular:
 
     $('#triangularize_me).triangles();
 
+*Make sure that you initialize after document is ready - $(document).ready();* 
+
 ## Parameters 
 
 You can change the number of triangles or the offset:
