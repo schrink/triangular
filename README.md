@@ -5,8 +5,8 @@ Small plugin for creating triangular scrolldown effect. Take a look at [demo](ht
 ## Usage
   - Include jQuery 
   - Include [https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.1.1/jquery.waypoints.min.js](https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.1.1/jquery.waypoints.min.js)
-  - Include triangular.js nad triangular.css
-  - Initialize triangular on an element
+  - Include triangular.js and triangular.css
+  - Initialize triangular on any element
 
 ## Example
 ### HTML
@@ -27,7 +27,7 @@ Small plugin for creating triangular scrolldown effect. Take a look at [demo](ht
 ### JS
 Initilaize triangular: 
 
-    $('#triangularize_me).triangles();
+    $('#triangularize_me').triangles();
 
 *Make sure that you initialize after document is ready - $(document).ready();* 
 
@@ -35,7 +35,7 @@ Initilaize triangular:
 
 You can change the number of triangles or the offset:
 
-    $('#triangularize_me).triangles({
+    $('#triangularize_me').triangles({
         noOfTriangles: 100, //default 200
         offsetTrigger: '20%' //default 30%
     });
