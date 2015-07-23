@@ -1,6 +1,6 @@
 # Triangular.js
 
-Small plugin for creating triangular scrolldown effect. 
+Small plugin for creating triangular scrolldown effect. Take a look at [demo](https://schrink.jsbin.com/sogono/11).
 
 ## Usage
   - Include jQuery 
@@ -39,3 +39,4 @@ You can change the number of triangles or the offset:
         noOfTriangles: 100, //default 200
         offsetTrigger: '20%' //default 30%
     });
+
