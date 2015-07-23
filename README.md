@@ -1,6 +1,6 @@
 # Triangular.js
 
-Small plugin for creating triangular scrolldown effect. Take a look at [demo](https://schrink.jsbin.com/sogono/11).
+Small plugin for creating triangular scrolldown effect. Take a look at [demo](https://schrink.jsbin.com/sogono/13).
 
 ## Usage
   - Include jQuery 
